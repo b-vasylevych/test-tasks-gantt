@@ -1,0 +1,9 @@
+@import '../../../mixins.scss';
+
+.filter-controls {
+  margin: 0 20px;
+
+  .filter-controls-datepicker {
+    @include flex-center;
+  }
+}
